@@ -8,6 +8,25 @@
     <link rel="stylesheet" type="text/css" media="all" href="/css/lightbox.css">
     <link rel="stylesheet" type="text/css" media="all" href="/css/image.css">
 
+    <!-- javascripts -->
+    <script type="text/javascript" src="/javascripts/jquery.scrollify.js">
+      // scrollify
+      $(function(){
+        $.scrollify({
+          section : ".scroll-div",
+          scrollSpeed: 1400,
+          scrollbars: false,
+        });
+      });
+    </script>
+
+    <script type="text/javascript" src="/javascripts/lightbox.js">
+      // lightbox
+      lightbox.option({
+        'alwaysShowNavOnTouchDevices': true,
+      })
+    </script>
+
   </head>
 <body>
   <header class="header">
@@ -117,7 +136,7 @@
 
 
 
-  <script type="text/javascript" src="/javascripts/jquery.scrollify.js">
+  <!-- <script type="text/javascript" src="/javascripts/jquery.scrollify.js">
     // scrollify
     $(function(){
       $.scrollify({
@@ -133,7 +152,7 @@
     lightbox.option({
       'alwaysShowNavOnTouchDevices': true,
     })
-  </script>
+  </script> -->
 
 </body>
 
