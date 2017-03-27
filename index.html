@@ -23,7 +23,7 @@
 
   <main class="main">
     <div class="main-top scroll-div"><a name="top" id="top"></a>
-      <div><img src="assets/logo-test.png" /></div>
+      <div><img src="/images/logo-test.png" /></div>
     </div>
 
 
@@ -34,7 +34,7 @@
       <div align="center">
         <table>
           <tr>
-            <td rowspan="3" width="350" align="left"><img src="assets/facepic.jpg" width="300" /></td>
+            <td rowspan="3" width="350" align="left"><img src="/images/facepic.jpg" width="300" /></td>
             <td>○○大学　○○学部　○○学科</td>
           </tr>
           <tr><td>あいうえお<br /><HR color="white"></td></tr>
@@ -75,11 +75,11 @@
     <div class="main-portfolio scroll-div"><a name="portfolio" id="portfolio"></a>
       <!-- <img src="../img/logo-test.png" border="3" width="300" height="50"> -->
       <br><br><br><br>
-      <!-- <div class="boxContainer">
+      <div class="boxContainer">
 
         <figure class="box">
-          <a href="assets/sb/sb01.jpg" data-lightbox="sb01" data-title="あいうえお">
-            <img src="assets/sb/sb01.jpg" class="transform01"/>
+          <a href="/images/sb/sb01.jpg" data-lightbox="sb01" data-title="あいうえお">
+            <img src="/images/sb/sb01.jpg" class="transform01"/>
             <figcaption>
               <br><h2>test1</h2>
             </figcaption>
@@ -87,8 +87,8 @@
         </figure>
 
         <figure class="box">
-          <a href="assets/pdf/pdf01.pdf" target="_blank">
-            <img src="assets/sb/sb02.jpg" class="transform01"/>
+          <a href="/images/pdf/pdf01.pdf" target="_blank">
+            <img src="/images/sb/sb02.jpg" class="transform01"/>
             <figcaption>
               <br><h2>test2</h2>
             </figcaption>
@@ -96,13 +96,13 @@
         </figure>
 
         <figure class="box">
-          <a href="assets/pdf/pdf02.pdf" target="_blank">
-            <img src="assets/sb/sb03.jpg" class="transform01"/>
+          <a href="/images/pdf/pdf02.pdf" target="_blank">
+            <img src="/images/sb/sb03.jpg" class="transform01"/>
             <figcaption>
               <br><h2>test3</h2>
             </figcaption>
           </a>
-        </figure> -->
+        </figure>
 
       </div>
     </div>
@@ -116,9 +116,8 @@
   </main>
 
 
-<!--
-  <%= javascript_include_tag "application" %>
-  <script>
+
+  <script type="text/javascrt" src="/javascripts/jquery.scrollify.js">
     // scrollify
     $(function(){
       $.scrollify({
@@ -127,14 +126,15 @@
         scrollbars: false,
       });
     });
+  </script>
 
+  <script type="text/javascrt" src="/javascripts/lightbox.js">
     // lightbox
     lightbox.option({
       'alwaysShowNavOnTouchDevices': true,
     })
+  </script>
 
-
-  </script> -->
 </body>
 
 </html>
