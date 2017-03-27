@@ -1,0 +1,113 @@
+/*
+外部CSS：vendor/assets/stylesheets/ にいれて、
+↓の１行を追記する！
+*= require_tree ../../../vendor/assets/stylesheets/.
+*/
+
+/*--------------------
+  全体の設定
+--------------------*/
+body {
+  font-size: 100%;
+  font-family: "Roboto", sans-serif;
+  color: #3d3536;
+  background-color: white;
+}
+
+/*--------------------
+  ナビゲーション
+--------------------*/
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  /*background: rgba(255, 255, 255, 0.95);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);*/
+  z-index: 2;
+}
+.header:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.main-nav {
+  position: static;
+  list-style: none;
+  overflow: hidden;
+  text-align: right;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+.main-nav ul {
+  position: static;
+  line-height: 70px;
+  padding-right: 2em;
+}
+.main-nav li {
+  display: inline-block;
+  font-size: 90%;
+  margin-left: 1em;
+}
+.main-nav li a {
+  display: block;
+  height: auto;
+  line-height: normal;
+  padding: .4em 1em;
+  text-align: center;
+  text-decoration: none;
+  color: #ffffff;
+}
+.main-nav li a:hover {
+  color: #858585;
+}
+
+/*--------------------
+  メイン
+--------------------*/
+.main {
+  position: relative;
+  width: 100%;
+  z-index: 1;
+}
+/*.main div {}*/
+/*.main h1 {
+  text-align: center;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+}*/
+
+/*--------------------
+  メイン中身
+--------------------*/
+.main-top {
+  height: 1000;
+  background: #f4f4f4;
+  text-align: center;
+}
+.main-profile {
+  height: 100%;
+  background: #6decb9;
+  /*text-align: center;*/
+  color: #4b4b4b;
+}
+.main-portfolio {
+  height: 100%;
+  background: #11999e;
+  text-align: center;
+  color: #4b4b4b;
+}
+.main-contact {
+  height: 100%;
+  background: #3c3c3c;
+  text-align: center;
+  color: #ffffff;
+}
+/*--------------------
+  Title
+--------------------*/
+.span_title {
+  color: #ffffff;
+  background-color: #464646;
+  text-indent: 5em;
+}

@@ -1,8 +1,140 @@
 <html>
-<head>
-  <title>Portfolio</title>
-</head>
+  <head>
+    <title>Portfolio</title>
+    <meta charset="utf-8">
+
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" media="all" href="/css/application.css">
+    <link rel="stylesheet" type="text/css" media="all" href="/css/lightbox.css">
+    <link rel="stylesheet" type="text/css" media="all" href="/css/image.css">
+
+  </head>
 <body>
-  <h1>Hello　github.io</h1>
+  <header class="header">
+    <nav class="main-nav">
+      <ul>
+        <li><a href="#top">トップ</a></il>
+        <li><a href="#profile">プロフィール</a></il>
+        <li><a href="#portfolio">作品集</a></a></il>
+        <li><a href="#contact">連絡先</a></a></il>
+      <ul>
+    </nav>
+  </header>
+
+  <main class="main">
+    <div class="main-top scroll-div"><a name="top" id="top"></a>
+      <div><img src="assets/logo-test.png" /></div>
+    </div>
+
+
+    <div class="main-profile scroll-div"><a name="profile" id="profile"></a>
+      <br><br><br>
+      <span class="span_title"><h1>Profile</h1></span>
+
+      <div align="center">
+        <table>
+          <tr>
+            <td rowspan="3" width="350" align="left"><img src="assets/facepic.jpg" width="300" /></td>
+            <td>○○大学　○○学部　○○学科</td>
+          </tr>
+          <tr><td>あいうえお<br /><HR color="white"></td></tr>
+          <tr><td><br />
+                  あいうえお<br />
+                  あいうえお<br />
+                  <br />
+                  </td></tr>
+        </table>
+
+        <HR color="white" width="1000"/>
+
+        <table>
+          <tr>
+            <td colspan="2" width="350">Software</td>
+            <td colspan="2">Skill</td>
+          </tr>
+
+          <tr>
+            <td width="100">Photoshop</td>
+            <td width="200">... &nbsp; ★☆☆☆☆</td>
+            <td width="100">Ruby</td>
+            <td width="200">... &nbsp; ★☆☆☆☆</td>
+          </tr>
+          <tr>
+            <td width="100">Adbe</td>
+            <td width="200">... &nbsp; ★☆☆☆☆</td>
+            <td width="100">HTML/CSS</td>
+            <td width="200">... &nbsp; ★☆☆☆☆</td>
+          </tr>
+
+        </table>
+      </div>
+
+    </div>
+
+
+    <div class="main-portfolio scroll-div"><a name="portfolio" id="portfolio"></a>
+      <!-- <img src="../img/logo-test.png" border="3" width="300" height="50"> -->
+      <br><br><br><br>
+      <!-- <div class="boxContainer">
+
+        <figure class="box">
+          <a href="assets/sb/sb01.jpg" data-lightbox="sb01" data-title="あいうえお">
+            <img src="assets/sb/sb01.jpg" class="transform01"/>
+            <figcaption>
+              <br><h2>test1</h2>
+            </figcaption>
+          </a>
+        </figure>
+
+        <figure class="box">
+          <a href="assets/pdf/pdf01.pdf" target="_blank">
+            <img src="assets/sb/sb02.jpg" class="transform01"/>
+            <figcaption>
+              <br><h2>test2</h2>
+            </figcaption>
+          </a>
+        </figure>
+
+        <figure class="box">
+          <a href="assets/pdf/pdf02.pdf" target="_blank">
+            <img src="assets/sb/sb03.jpg" class="transform01"/>
+            <figcaption>
+              <br><h2>test3</h2>
+            </figcaption>
+          </a>
+        </figure> -->
+
+      </div>
+    </div>
+
+    <div class="main-contact scroll-div"><a name="contact" id="contact"></a>
+      <br><br><br><br>
+      contact contact contact contact contact contact contact contact contact contact contact contact<br>
+      contact contact contact contact contact contact contact contact contact contact contact contact
+    </div>
+
+  </main>
+
+
+<!--
+  <%= javascript_include_tag "application" %>
+  <script>
+    // scrollify
+    $(function(){
+      $.scrollify({
+        section : ".scroll-div",
+        scrollSpeed: 1400,
+        scrollbars: false,
+      });
+    });
+
+    // lightbox
+    lightbox.option({
+      'alwaysShowNavOnTouchDevices': true,
+    })
+
+
+  </script> -->
 </body>
+
 </html>
