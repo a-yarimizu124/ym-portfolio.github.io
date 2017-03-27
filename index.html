@@ -8,6 +8,8 @@
     <link rel="stylesheet" type="text/css" media="all" href="/css/lightbox.css">
     <link rel="stylesheet" type="text/css" media="all" href="/css/image.css">
 
+    <link rel="stylesheet" type="text/css" media="screen" href="/fancybox/jquery.fancybox.min.css">
+
   </head>
 <body>
   <header class="header">
@@ -22,12 +24,12 @@
   </header>
 
   <main class="main">
-    <div class="main-top scroll-div"><a name="top" id="top"></a>
+    <div class="main-top"><a name="top" id="top"></a>
       <div><img src="/images/logo-test.png" /></div>
     </div>
 
 
-    <div class="main-profile scroll-div"><a name="profile" id="profile"></a>
+    <div class="main-profile"><a name="profile" id="profile"></a>
       <br><br><br>
       <span class="span_title"><h1>Profile</h1></span>
 
@@ -72,13 +74,13 @@
     </div>
 
 
-    <div class="main-portfolio scroll-div"><a name="portfolio" id="portfolio"></a>
+    <div class="main-portfolio"><a name="portfolio" id="portfolio"></a>
       <!-- <img src="../img/logo-test.png" border="3" width="300" height="50"> -->
       <br><br><br><br>
       <div class="boxContainer">
 
         <figure>
-          <a href="/images/sb/sb01.jpg" data-lightbox="sb01" data-title="あいうえお">
+          <a class="fancybox" href="/images/sb/sb01.jpg" title="starButffly">
             <img src="/images/sb/sb01.jpg" class="transform01"/>
             <figcaption>
               <br><h2>test1</h2>
@@ -107,7 +109,7 @@
       </div>
     </div>
 
-    <div class="main-contact scroll-div"><a name="contact" id="contact"></a>
+    <div class="main-contact"><a name="contact" id="contact"></a>
       <br><br><br><br>
       contact contact contact contact contact contact contact contact contact contact contact contact<br>
       contact contact contact contact contact contact contact contact contact contact contact contact
@@ -116,21 +118,10 @@
   </main>
 
 
+  <!-- Javascript -->
+  <script type="text/javascripts" src="/js/jquery-3.2.0.min.js"></script>
+  <script type="text/javascripts" src="/fancybox/jquery.fancybox.min.js"></script>
 
-  <script type="text/javascript" src="javascripts/jquery.easing.1.3.js"></script>
-  <script type="text/javascript" src="javascripts/jquery.scrollify.min.js"></script>
-
-  <script>
-    // scrollify
-    // $(function(){
-    $(function(){
-      $.scrollify({
-        section : ".scroll-div",
-        scrollSpeed: 1400,
-        scrollbars: false,
-      });
-    });
-  </script>
 
 </body>
 
