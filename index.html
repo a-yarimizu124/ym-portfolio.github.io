@@ -3,11 +3,14 @@
     <title>Portfolio</title>
     <meta charset="utf-8">
 
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+
     <!-- CSS -->
     <link rel="stylesheet" type="text/css" media="all" href="/css/application.css">
     <link rel="stylesheet" type="text/css" media="all" href="/css/image.css">
 
-    <link rel="stylesheet" type="text/css" media="screen" href="/css/jquery.fancybox.min.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="/fancybox-master/dist/jquery.fancybox.css"/>
+    <script type="text/javascript" src="/fancybox-master/dist/jquery.fancybox.js"></script>
 
   </head>
 <body>
@@ -117,10 +120,11 @@
   </main>
 
 
-  <!-- Javascript -->
-  <script type="text/javascripts" src="/js/jquery-3.2.0.min.js"></script>
-  <script type="text/javascripts" src="/js/jquery.fancybox.min.js"></script>
-
+  <script>
+  jQuery(function($){
+      $(".fancybox").fancybox();
+  });
+  </script>
 
 </body>
 
