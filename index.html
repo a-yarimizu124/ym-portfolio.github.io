@@ -27,11 +27,11 @@
 
   <main class="main">
 
-    <div class="main-top"><a name="top" id="top"></a>
+    <div class="main-top parallax-window" data-parallax="scroll"><a name="top" id="top"></a>
       <div><img src="/images/logo-test.png" /></div>
     </div>
 
-    <div class="main-profile"><a name="profile" id="profile"></a>
+    <div class="main-profile parallax-window" data-parallax="scroll"><a name="profile" id="profile"></a>
       <br><br><br>
       <span class="span_title"><h1>Profile</h1></span>
 
@@ -74,7 +74,7 @@
       </div>
     </div>
 
-    <div class="main-portfolio"><a name="portfolio" id="portfolio"></a>
+    <div class="main-portfolio parallax-window" data-parallax="scroll"><a name="portfolio" id="portfolio"></a>
       <br><br><br><br>
       <div class="boxContainer">
 
@@ -108,7 +108,7 @@
       </div>
     </div>
 
-    <div class="parallax-window" data-parallax="scroll"><a name="contact" id="contact"></a>
+    <div class="main-contact parallax-window" data-parallax="scroll"><a name="contact" id="contact"></a>
       <br><br><br><br>
       contact contact contact contact contact contact contact contact contact contact contact contact<br>
       contact contact contact contact contact contact contact contact contact contact contact contact
@@ -126,6 +126,8 @@
     $(document).ready(function() {
   	  $('[data-fancybox]').fancybox();
     });
+
+    $('.parallax-window').parallax({imageSrc: '/path/to/image.jpg'});
   </script>
 
 </body>
