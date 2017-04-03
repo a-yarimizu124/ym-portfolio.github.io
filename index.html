@@ -11,6 +11,13 @@
     <link rel="stylesheet" type="text/css" media="all" href="/css/image.css">
     <link rel="stylesheet" type="text/css" href="/css/jquery.fancybox.min.css">
 
+    <style type="text/css">
+    .parallax-window {
+      min-height: 400px;
+      background: transparent;
+    }
+    </style>
+
   </head>
 
 <body>
@@ -115,11 +122,12 @@
 
     <div class="parallax-window" data-parallax="scroll" data-image-src="images/bg/patter.jpg" data-bleed="10" data-natural-width="1400" data-natural-height="900"></div>
 
-    <section class="main-contact"><a name="contact" id="contact"></a>
+    <fotter class="main-contact"><a name="contact" id="contact"></a>
       <br><br>
       contact contact contact contact contact contact contact contact contact contact contact contact<br>
       contact contact contact contact contact contact contact contact contact contact contact contact
-    </section>
+      <br><br>
+    </fotter>
 
   </main>
 
@@ -135,6 +143,18 @@
     });
 
     $('.parallax-window').parallax({imageSrc: '/images/bg/patter.jpg'});
+
+    $(function(){
+       if (navigator.userAgent.match(/(iPod|iPhone|iPad|Android)/)) {
+         $('#ios-notice').removeClass('hidden');
+         $('.parallax-container').height( $(window).height() * 0.5 | 0 );
+       } else {
+         $(window).resize(function(){
+           var parallaxHeight = Math.max($(window).height() * 0.7, 200) | 0;
+           $('.parallax-container').height(parallaxHeight);
+         }).trigger('resize');
+       }
+     });
   </script>
 
 </body>
