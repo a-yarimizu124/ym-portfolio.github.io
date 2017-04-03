@@ -41,7 +41,7 @@
     data-natural-width="1400" data-natural-height="1620"></div>
 
     <!-- プロフィール -->
-    <section><div class="main-profile"><a name="profile" id="profile"></a>
+    <section class="main-profile"><a name="profile" id="profile"></a>
       <br><br><br>
       <span class="span_title"><h1>Profile</h1></span>
 
@@ -83,7 +83,7 @@
         <br />
 
       </div>
-    </div></section>
+    </section>
 
     <div class="parallax-window" data-parallax="scroll"
     data-natural-width="1400" data-natural-height="1620"></div>
@@ -153,17 +153,17 @@
       imageSrc: '/images/bg/patter1.jpg'
     });
 
-    // $(function(){
-    //    if (navigator.userAgent.match(/(iPod|iPhone|iPad|Android)/)) {
-    //      $('#ios-notice').removeClass('hidden');
-    //      $('.parallax-window').height( $(window).height() * 0.5 | 0 );
-    //    } else {
-    //      $(window).resize(function(){
-    //        var parallaxHeight = Math.max($(window).height() * 0.7, 200) | 0;
-    //        $('.parallax-window').height(parallaxHeight);
-    //      }).trigger('resize');
-    //    }
-    //  });
+    $(function(){
+       if (navigator.userAgent.match(/(iPod|iPhone|iPad|Android)/)) {
+         $('#ios-notice').removeClass('hidden');
+         $('.parallax-window').height( $(window).height() * 0.5 | 0 );
+       } else {
+         $(window).resize(function(){
+           var parallaxHeight = Math.max($(window).height() * 0.7, 200) | 0;
+           $('.parallax-window').height(parallaxHeight);
+         }).trigger('resize');
+       }
+     });
   </script>
 
 </body>
