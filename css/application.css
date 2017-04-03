@@ -112,3 +112,10 @@ body {
   background-color: #464646;
   text-indent: 5em;
 }
+/*--------------------
+  Parallax
+--------------------*/
+.parallax-window {
+  min-height: 200px;
+  background: transparent;
+}
