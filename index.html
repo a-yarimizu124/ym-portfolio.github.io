@@ -38,7 +38,7 @@
     </div>
 
     <div class="parallax-window" data-parallax="scroll" data-image-src="/images/bg/patter1.jpg"
-    data-bleed="10" data-speed="0.8" data-natural-width="1400" data-natural-height="1000"></div>
+    data-bleed="10" data-speed="0.8" data-position="top" data-natural-width="1400" data-natural-height="1000"></div>
 
     <!-- プロフィール -->
     <div class="main-profile"><a name="profile" id="profile"></a>
@@ -148,7 +148,11 @@
   	  $('[data-fancybox]').fancybox();
     });
 
-    $('.parallax-window').parallax({imageSrc: '/images/bg/patter1.jpg','/images/bg/patter2.jpg','/images/bg/patter3.jpg'});
+    $('.parallax-window').parallax({
+      imageSrc: '/images/bg/patter1.jpg'
+      imageSrc: '/images/bg/patter2.jpg'
+      imageSrc: '/images/bg/patter3.jpg'
+    });
 
     $(function(){
        if (navigator.userAgent.match(/(iPod|iPhone|iPad|Android)/)) {
