@@ -116,6 +116,6 @@ body {
   Parallax
 --------------------*/
 .parallax-window {
-  min-height: 500;
+  min-height: 400px;
   background: transparent;
 }
