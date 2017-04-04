@@ -90,6 +90,7 @@ body {
   background: #11999e;
   text-align: center;
   color: #4b4b4b;
+  overflow: auto;
 }
 .main-contact {
   /*height: 100%;*/
