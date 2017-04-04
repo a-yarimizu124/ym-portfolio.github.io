@@ -146,9 +146,11 @@
   <script type="text/javascript" src="/js/parallax.min.js"></script>
 
   <script>
-    jQyery(document).ready(function() {
-  	  jQuery('[data-fancybox]').fancybox();
-      jQuery('.parallax-window').parallax({imageSrc: '/images/bg/patter.jpg'});
+    jQuery(document).ready(function($) {
+      $(document).ready(function() {
+  	    $('[data-fancybox]').fancybox();
+        $('.parallax-window').parallax({imageSrc: '/images/bg/patter.jpg'});
+      });
     });
   </script>
 
