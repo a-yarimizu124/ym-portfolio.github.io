@@ -5,7 +5,6 @@ body {
   font-size: 100%;
   font-family: "Roboto", sans-serif;
   color: #3d3536;
-  /*background-color: pink;*/
   margin: 0;
 }
 
@@ -110,8 +109,7 @@ body {
   Parallax
 --------------------*/
 .parallax-window {
-  height: 20px;
-  min-height: 400px;
+  min-height: 50px;
   width: 100%;
   background: transparent;
 }

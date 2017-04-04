@@ -5,8 +5,6 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- <script type="text/javascript" src="/js/jquery-3.2.0.min.js"></script> -->
-
     <!-- Reset -->
     <link rel="stylesheet" type="text/css" media="all" href="/css/reset.css">
     <!-- CSS -->
@@ -17,7 +15,6 @@
   </head>
 
 <body>
-
   <!-- ナビゲーションバー -->
   <header class="header">
     <nav class="main-nav">
@@ -39,7 +36,7 @@
     </div>
 
     <div class="parallax-window" data-parallax="scroll" data-position="top" data-image-src="/images/bg/patter.jpg"
-    data-natural-width="1400" data-natural-height="1620"></div>
+    data-natural-width="1400" data-natural-height="1620" height="100"></div>
 
     <!-- プロフィール -->
     <div class="main-profile"><a name="profile" id="profile"></a>
@@ -140,6 +137,7 @@
   </main>
 
 
+  <!-- jQuery -->
   <script type="text/javascript" src="/js/jquery-3.2.0.min.js"></script>
   <!-- fancybox -->
   <script type="text/javascript" src="/js/jquery.fancybox.min.js"></script>
@@ -150,7 +148,6 @@
     $(document).ready(function() {
   	  $('[data-fancybox]').fancybox();
     });
-
 
     $(document).ready(function() {
        if (navigator.userAgent.match(/(iPod|iPhone|iPad|Android)/)) {
