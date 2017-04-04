@@ -8,6 +8,24 @@ body {
   margin: 0;
 }
 
+.wrapper
+{
+	width: 1000px ;
+	margin: 0;
+	padding: 0;
+}
+
+/* スマホだけに適用するCSS */
+@media screen and ( max-width: 480px)
+{
+	.wrapper
+	{
+		width: auto ;
+		padding: 0 10px;
+	}
+}
+
+
 /*--------------------
   ナビゲーション
 --------------------*/
