@@ -130,7 +130,7 @@ body {
 .pic1 {
   background-image: url('/images/bg/patter.jpg');
 }
-@media (max-width: 480px) {
+@media (min-width: 768px) {
   .pic1 {
     background-image: url('/images/bg/patter.jpg');
   }
