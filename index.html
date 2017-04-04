@@ -146,12 +146,16 @@
   <script type="text/javascript" src="/js/parallax.min.js"></script>
 
   <script>
-    jQuery(document).ready(function($) {
-      $(document).ready(function() {
-  	    $('[data-fancybox]').fancybox();
-        $('.parallax-window').parallax({imageSrc: '/images/bg/patter.jpg'});
-      });
-    });
+    (function($) {
+      $('[data-fancybox]').fancybox();
+      $('.parallax-window').parallax({imageSrc: '/images/bg/patter.jpg'});
+    }(jQuery));
+    // jQuery(document).ready(function($) {
+    //   $(document).ready(function() {
+  	//     $('[data-fancybox]').fancybox();
+    //     $('.parallax-window').parallax({imageSrc: '/images/bg/patter.jpg'});
+    //   });
+    // });
   </script>
 
 </body>
