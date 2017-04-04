@@ -19,7 +19,7 @@ body {
 	height   : 100%;
 }
 
-a { 
+a {
 	color           : #6C6;
 	text-decoration : none;
 }
@@ -64,7 +64,7 @@ h1 {
 
 h2 {
 	font-family : "Caecilia-RomanSC", Verdana, sans-serif;
-	font-size   : 30px; 
+	font-size   : 30px;
 	font-weight : bold;
 	line-height : 80px;
 }
@@ -157,14 +157,14 @@ ul#nav a {
 	display     : block;
 	width       : 20px;
 	height      : 20px;
-	background  : url('../images/grey-dot.png') 0 100% no-repeat;
+	/*background  : url('../images/grey-dot.png') 0 100% no-repeat;*/
 	text-indent : -9000px;
 	overflow    : hidden;
 	outline     : none;
 }
 
 ul#nav a:hover, nav#main li.active a {
-	background : url('../images/grey-pink-dot.png') 0 100% no-repeat;
+	/*background : url('../images/grey-pink-dot.png') 0 100% no-repeat;*/
 }
 
 ul#nav h1 {
@@ -175,7 +175,7 @@ ul#nav h1 {
 	top         : 0px;
 	white-space : nowrap;
 	padding     : 0 0 0 18px;
-	background  : url('../images/menu-arrow.png') 0 50% no-repeat;
+	/*background  : url('../images/menu-arrow.png') 0 50% no-repeat;*/
 	overflow    : hidden;
 	margin      : 0;
 	font-size   : 16px;
@@ -183,7 +183,7 @@ ul#nav h1 {
 
 ul#nav span {
 	display            : block;
-	background         : url('../images/menu-bg.png') repeat-x;
+	/*background         : url('../images/menu-bg.png') repeat-x;*/
 	color              : #FFF;
 	padding            : 4px 8px;
 	white-space        : nowrap;

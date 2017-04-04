@@ -1,7 +1,7 @@
-html{
+/*html{
 	color      : #000;
 	background : #FFF;
-}
+}*/
 
 body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td{
 	margin  : 0;
@@ -71,6 +71,6 @@ input,button,textarea,select{
 	*font-size : 100%;
 }
 
-input {
+/*input {
         background : -webkit-gradient(linear, left top, left bottom, from(#FFF), to(#FFF));
-}
+}*/
