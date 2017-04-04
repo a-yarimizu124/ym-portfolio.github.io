@@ -7,6 +7,7 @@
 .boxContainer {
 	float: right;
 	overflow: hidden;
+	display: inline-block;
 }
 .box img {
 	height: 400px;
@@ -29,7 +30,6 @@ figure {
 	position: relative;
 	overflow: hidden;
 	width: 300px;
-	display: run-in;
 
 	/* 画像に角丸マスクをかける */
 	border-radius: 6px;
