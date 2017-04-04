@@ -88,7 +88,7 @@ body {
 .main-portfolio {
   height: 600;
   background: #11999e;
-  text-align: center;
+  /*text-align: center;*/
   color: #4b4b4b;
   overflow: auto;
 }

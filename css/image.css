@@ -7,6 +7,7 @@
 .boxContainer {
 	float: right;
 	overflow: hidden;
+	text-align: center;
 }
 .box img {
 	height: 400px;
