@@ -109,8 +109,29 @@ body {
 /*--------------------
   Parallax
 --------------------*/
-.parallax-window {
-  min-height: 50px !important;
+.bg-holder {
   width: 100%;
-  background: transparent;
+  height: 100%;
+  background-size: cover;
+  background-position: 50% 50%;
+  color: #fff;
+}
+.bg-holder .content {
+  color: #fff;
+  text-align: center;
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.pic1 {
+  background-image: url('/images/bg/patter.jpg');
+}
+@media (max-width: 480px) {
+  .pic1 {
+    background-image: url('/images/bg/patter.jpg');
+  }
 }
