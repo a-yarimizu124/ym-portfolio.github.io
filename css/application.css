@@ -8,24 +8,6 @@ body {
   margin: 0;
 }
 
-.wrapper
-{
-	width: 1000px ;
-	margin: 0;
-	padding: 0;
-}
-
-/* スマホだけに適用するCSS */
-@media screen and ( max-width: 480px)
-{
-	.wrapper
-	{
-		width: auto ;
-		padding: 0 10px;
-	}
-}
-
-
 /*--------------------
   ナビゲーション
 --------------------*/
@@ -74,6 +56,20 @@ body {
 .main-nav li a:hover {
   color: #858585;
 }
+
+@media screen and (max-width: 480px) {
+ .header {
+   height: 10px;
+ }
+ .menu-nav {
+   display: none;
+ }
+ .menu-nav li {
+   width: 100%;
+ }
+}
+
+
 
 /*--------------------
   メイン

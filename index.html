@@ -135,8 +135,8 @@
     <fotter>
       <div class="main-contact"><a name="contact" id="contact"></a>
         <br><br>
-        contact contact contact contact contact contact contact contact contact contact contact contact<br>
-        contact contact contact contact contact contact contact contact contact contact contact contact
+        2017 鑓水愛佐<br>
+        email:~~~~~~~@gmail.com
         <br><br>
       </div>
     </fotter>
@@ -158,6 +158,20 @@
       $(".bg-holder").parallaxScroll({
         friction: 0.1
       });
+
+      var $header = $('#top-head');
+              // Nav Fixed
+              $(window).scroll(function() {
+                  if ($(window).scrollTop() > 350) {
+                      $header.addClass('fixed');
+                  } else {
+                      $header.removeClass('fixed');
+                  }
+              });
+              // Nav Toggle Button
+              $('#nav-toggle').click(function(){
+                  $header.toggleClass('open');
+              });
     });
   </script>
 
