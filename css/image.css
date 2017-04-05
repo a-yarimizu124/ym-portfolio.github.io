@@ -37,7 +37,7 @@ img{
 figure {
 	position: relative;
 	overflow: hidden;
-	width: 300px;
+	width: 200px;
 
 	/* 画像に角丸マスクをかける */
 	border-radius: 6px;
