@@ -75,10 +75,11 @@ body {
   text-align: center;
 }
 .main-profile {
-  /*height: 600;*/
+  height: 600;
   background: #6decb9;
-  /*text-align: center;*/
+  text-align: center;
   color: #4b4b4b;
+  overflow: auto;
 }
 .main-portfolio {
   height: 600;
