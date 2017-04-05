@@ -57,18 +57,6 @@ body {
   color: #858585;
 }
 
-@media screen and (max-width: 480px) {
- .header {
-   height: 10px;
- }
- .menu-nav {
-   display: none;
- }
- .menu-nav li {
-   width: 100%;
- }
-}
-
 
 
 /*--------------------
@@ -79,11 +67,6 @@ body {
   width: 100%;
   z-index: 1;
 }
-/*.main div {}*/
-/*.main h1 {
-  text-align: center;
-  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
-}*/
 
 /*--------------------
   メイン中身
@@ -121,6 +104,23 @@ body {
   text-indent: 5em;
 }
 /*--------------------
+  Profile
+--------------------*/
+.circle {
+   width: 100px;
+   height: 100px;
+   background: pink;
+   border-radius: 50px;
+   color: white;
+}
+.profile_contents div {
+  transition: 1s;
+}
+.profile_contents img:hover {
+  transform: scale(1.2);
+}
+
+/*--------------------
   Parallax
 --------------------*/
 .bg-holder {
@@ -143,9 +143,4 @@ body {
 }
 .pic1 {
   background-image: url('/images/bg/patter.jpg');
-}
-@media screen and (max-width: 480px) {
-  .pic1 {
-    background-image: url('/images/bg/patter.jpg');
-  }
 }
