@@ -110,12 +110,7 @@ body {
    background: pink;
    border-radius: 50px;
 }
-.profile_contents {
-  position: relative;
-  overflow: auto;
-}
 .profile_contents div {
-  float: left;
   display: inline;
   transition: 1;
 }

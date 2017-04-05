@@ -37,6 +37,11 @@ figure {
 	overflow: hidden;
 	width: 200px;
 
+	-webkit-margin-before: 1em;
+	-webkit-margin-after: 1em;
+	-webkit-margin-start: 10px;
+	-webkit-margin-end: 10px;
+
 	/* 画像に角丸マスクをかける */
 	border-radius: 6px;
 	-webkit-mask-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAA5JREFUeNpiYGBgAAgwAAAEAAGbA+oJAAAAAElFTkSuQmCC);
