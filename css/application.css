@@ -110,7 +110,6 @@ body {
    height: 100px;
    background: pink;
    border-radius: 50px;
-   display: block;
 }
 .profile_contents div {
   position: relative;
