@@ -100,7 +100,6 @@ body {
 .span_title {
   color: #ffffff;
   background-color: #464646;
-  text-indent: 5em;
 }
 /*--------------------
   Profile
@@ -113,8 +112,8 @@ body {
 }
 .profile_contents div {
   position: relative;
-  display: inline;
   overflow: hidden;
+  display: inline;
   transition: 1;
 }
 .profile_contents div:hover {
