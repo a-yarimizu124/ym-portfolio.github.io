@@ -115,7 +115,7 @@ body {
 }
 .profile_contents div {
   float: left;
-  /*transition: 1s;*/
+  transition: 1s;
 
   -webkit-margin-before: 1em;
   -webkit-margin-after: 1em;
