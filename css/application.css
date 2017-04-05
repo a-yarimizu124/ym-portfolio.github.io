@@ -57,8 +57,6 @@ body {
   color: #858585;
 }
 
-
-
 /*--------------------
   メイン
 --------------------*/
@@ -85,7 +83,7 @@ body {
 .main-portfolio {
   height: 600;
   background: #11999e;
-  /*text-align: center;*/
+  text-align: center;
   color: #4b4b4b;
   overflow: auto;
 }
@@ -111,6 +109,7 @@ body {
    height: 100px;
    background: pink;
    border-radius: 50px;
+   display: block;
 }
 .profile_contents div {
   position: relative;
