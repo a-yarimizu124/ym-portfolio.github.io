@@ -114,22 +114,20 @@ body {
    -moz-box-shadow: rgba(0,0,0,0.2) 1px 1px 2px;
 }
 .profile_contents div {
+  overflow: auto;
   float: left;
-  transition: 1s;
+  /*transition: 1s;*/
 
   -webkit-margin-before: 1em;
   -webkit-margin-after: 1em;
   -webkit-margin-start: 10px;
   -webkit-margin-end: 10px;
-
-  padding-top: 50px;
-  overflow: auto;
 }
 .profile_contents div:hover {
   transform: scale(1.5);
 }
 .profile_contents p {
-	top: 0;
+	top: 50px;
 	left: 0;
 	z-index: 2;
 	width: 100%;
