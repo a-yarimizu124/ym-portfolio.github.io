@@ -112,6 +112,7 @@ body {
 }
 .profile_contents {
   position: relative;
+  overflow: auto;
 }
 .profile_contents div {
   float: left;
