@@ -116,6 +116,7 @@ body {
 }
 .profile_contents {
   padding-top: 50px;
+  overflow: auto;
 }
 .profile_contents div {
   float: left;
