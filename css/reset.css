@@ -73,4 +73,10 @@ legend{
 	color:#000;
 }
 
+figure {
+	-webkit-margin-before: 1em;
+	-webkit-margin-after: 1em;
+	-webkit-margin-start: 10px;
+	-webkit-margin-end: 10px;
+}
 #yui3-css-stamp.cssreset{display:none;}
