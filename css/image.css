@@ -13,7 +13,8 @@ img{
 	float: left;
 }
 .boxContainer {
-	float: right;
+	/*float: inline;*/
+	display: inline-block;
 	overflow: hidden;
 	text-align: center;
 }
