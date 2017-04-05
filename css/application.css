@@ -82,7 +82,6 @@ body {
   overflow: auto;
 }
 .main-portfolio {
-  height: 600;
   background: #11999e;
   text-align: center;
   color: #4b4b4b;
@@ -125,7 +124,6 @@ body {
 
   padding-top: 50px;
   overflow: auto;
-  width: 70%
 }
 .profile_contents div:hover {
   transform: scale(1.5);
