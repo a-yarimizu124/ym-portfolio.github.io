@@ -109,6 +109,13 @@ body {
    height: 100px;
    background: pink;
    border-radius: 50px;
+
+   box-shadow: rgba(113,135,164,.65098) 3px 3px 6px 3px;
+   -webkit-box-shadow: rgba(113,135,164,.65098) 3px 3px 6px 3px;
+   -moz-box-shadow: rgba(113,135,164,.65098) 3px 3px 6px 3px;
+}
+.profile_contents {
+  padding-top: 50px;
 }
 .profile_contents div {
   float: left;
@@ -120,10 +127,9 @@ body {
   -webkit-margin-end: 10px;
 }
 .profile_contents div:hover {
-  transform: scale(1.2);
+  transform: scale(1.5);
 }
 .profile_contents p {
-	position: absolute;
 	top: 0;
 	left: 0;
 	z-index: 2;
@@ -131,6 +137,7 @@ body {
 	height: 100%;
 	-webkit-transition: .3s;
 	color: white;
+  text-align: center;
 }
 .profile_contents p:hover {
 	color: black;
