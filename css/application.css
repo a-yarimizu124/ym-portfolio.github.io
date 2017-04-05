@@ -113,6 +113,11 @@ body {
 .profile_contents div {
   float: left;
   /*transition: 1s;*/
+
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 10px;
+  -webkit-margin-end: 10px;
 }
 .profile_contents div:hover {
   transform: scale(1.2);
