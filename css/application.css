@@ -111,7 +111,6 @@ body {
    border-radius: 50px;
 }
 .profile_contents div {
-  display: inline;
   transition: 1;
 }
 .profile_contents div:hover {
