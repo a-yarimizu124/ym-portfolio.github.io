@@ -112,16 +112,13 @@ body {
    -moz-box-shadow: rgba(0,0,0,0.2) 1px 1px 2px;
 }
 .profile_contents div {
-  display: block;
-  position: absolute;
+  float: left;
   top: 0;
   left: 0;
   width: 150px;
   height: 150px;
   padding: 0px;
   border-radius: 50%;
-  color: #fff;
-  font-size: 32px;
   line-height: 150px;
   text-align: center;
   text-decoration: none;
@@ -131,6 +128,7 @@ body {
   -ms-transition: .5s;
   transition: .5s;
   z-index: 10;
+  color: #fff;
 
   /*position: relative;
   overflow: auto;
