@@ -77,10 +77,13 @@
 --------------------*/
 .balloon {
   position: relative;
-  width: 500px;
-  height: 500px;
-  background-color: #ccc;
+  width: 400px;
+  height: auto;
+  background-color: #3c3c3c;
   text-align: center;
+
+  color: white;
+  font-size: 30px;
 }
 .balloon:before {
   content: "";
@@ -90,7 +93,7 @@
   margin-left: -10px;
   width: 0;
   height: 0;
-  border-top: 10px solid #ccc;
+  border-top: 10px solid #3c3c3c;
   border-left: 10px solid transparent;
   border-right: 10px solid transparent;
 }
