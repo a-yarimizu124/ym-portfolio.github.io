@@ -148,7 +148,7 @@ body {
 
   /*transform: scale(1.5);*/
 }
-.profile_contents p {
+.p_title {
 	top: 0;
 	left: 0;
 	z-index: 2;
@@ -160,8 +160,14 @@ body {
   padding-top: 30;
   text-align: center;
 }
-.profile_contents p:hover {
-	color: black;
+.p_text {
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-align: center;
+}
+.p_text p:hover {
+  text-indent: 0;
 }
 
 /*--------------------
