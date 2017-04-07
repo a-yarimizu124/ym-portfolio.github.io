@@ -33,7 +33,7 @@
     <!-- トップ -->
     <div class="bg-holder pic1" data-width="1024" data-height="768">
       <div class="main-top"><a name="top" id="top"></a>
-        <img src="/images/logo-test.png" />
+        <p>あいうえおかきくけこ</p>
       </div>
       <br /><br /><br /><br /><br /><br />
       <!-- <div class="content">
@@ -84,7 +84,7 @@
       </div>
     </div></section>
 
-    <div class="bg-holder pic1" data-width="1024" data-height="768">
+    <div class="bg-holder2 pic2" data-width="1024" data-height="768">
       <br /><br /><br /><br /><br /><br />
     </div>
 
@@ -100,8 +100,8 @@
           <a data-fancybox data-caption="女子向け広報冊子<br>
                                         女子高校生を対象として作られた冊子。企画とp5~7の制作を担当しました。<br>
                                         使用ソフト：Adobe(Phitishop, Illustrator)"
-             href="/images/sb/sb01.jpg">
-            <img src="/images/sb/sb01.jpg" class="transform01"/>
+             href="/images/works/work01.jpg">
+            <img src="/images/works/FitGirls.pdf" class="transform01"/>
             <figcaption>
               <br><h2>女子向け広報冊子</h2>
             </figcaption>
@@ -150,7 +150,7 @@
       </div>
     </div></section>
 
-    <div class="bg-holder pic1" data-width="1024" data-height="768">
+    <div class="bg-holder2 pic3" data-width="1024" data-height="768">
       <br /><br /><br /><br /><br /><br />
     </div>
 
@@ -178,9 +178,13 @@
     $(function() {
       $('[data-fancybox]').fancybox();
 
-      $(".bg-holder").parallaxScroll({
-        friction: 0.1
+      $(".bg-holder1").parallaxScroll({
+        friction: 0.8
       });
+      $(".bg-holder2").parallaxScroll({
+        friction: 0.4
+      });
+
 
       var $header = $('#top-head');
               // Nav Fixed
