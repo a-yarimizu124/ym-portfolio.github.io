@@ -76,13 +76,15 @@ body {
 }
 .main-profile {
   height: 600;
-  background: #6decb9;
+  /*background: #6decb9;*/
+  background: indianred;
   text-align: center;
   color: #4b4b4b;
   overflow: auto;
 }
 .main-portfolio {
-  background: #11999e;
+  /*background: #11999e;*/
+  background: indianred;
   text-align: center;
   color: #4b4b4b;
   overflow: auto;
