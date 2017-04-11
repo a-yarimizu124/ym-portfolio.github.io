@@ -94,6 +94,10 @@ body {
   text-align: center;
   color: #ffffff;
 }
+.brank-top {
+  padding-top: 5em;
+  padding-bottom: 10em;
+}
 /*--------------------
   Title
 --------------------*/
