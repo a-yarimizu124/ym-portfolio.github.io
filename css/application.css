@@ -70,6 +70,7 @@ body {
   メイン中身
 --------------------*/
 .main-top {
+  position: static;
   height: 100%;
   /*background: #f4f4f4;*/
   /*text-align: center;*/
@@ -93,6 +94,11 @@ body {
   background: #3c3c3c;
   text-align: center;
   color: #ffffff;
+}
+.brank-top {
+  position: relative;
+  margin-top: 50px;
+  margin-bottom: 50%;
 }
 /*--------------------
   Title
