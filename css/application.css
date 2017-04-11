@@ -158,8 +158,9 @@ body {
   空白設定
 --------------------*/
 .brank-top {
-  padding-top: 5em;
-  padding-bottom: 36em;
+  padding-top: 7em;
+  padding-left: 5em;
+  padding-bottom: 34em;
 }
 .brank {
   padding-top: 15em;
