@@ -77,14 +77,14 @@ body {
 .main-profile {
   height: 600;
   /*background: #6decb9;*/
-  background: indianred;
+  background: #e2e2e2;
   text-align: center;
   color: #4b4b4b;
   overflow: auto;
 }
 .main-portfolio {
   /*background: #11999e;*/
-  background: indianred;
+  background: #e2e2e2;
   text-align: center;
   color: #4b4b4b;
   overflow: auto;
