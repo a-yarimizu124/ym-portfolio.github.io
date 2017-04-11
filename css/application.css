@@ -94,10 +94,6 @@ body {
   text-align: center;
   color: #ffffff;
 }
-.brank-top {
-  padding-top: 5em;
-  padding-bottom: 10em;
-}
 /*--------------------
   Title
 --------------------*/
@@ -156,4 +152,15 @@ body {
 }
 .pic3 {
   background-image: url('/images/bg/top_back3.jpg');
+}
+
+/*--------------------
+  空白設定
+--------------------*/
+.brank-top {
+  padding-top: 5em;
+  padding-bottom: 30em;
+}
+.brank {
+  padding-top: 15em;
 }
