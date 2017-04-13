@@ -122,8 +122,7 @@ td {
   td {
     width: 100%;
     display: block;
-    text-align: center;
-    padding-left: 0;
+    padding-left: 1em;
   }
 }
 /*--------------------
@@ -221,7 +220,7 @@ td {
   .brank-top {
     padding-top: 5em;
     padding-left: 4em;
-    padding-bottom: 28em;
+    padding-bottom: 23em;
   }
   .brank {
     padding-top: 15em;
