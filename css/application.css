@@ -122,6 +122,8 @@ td {
   td {
     width: 100%;
     display: block;
+    text-align: center;
+    padding-left: 0;
   }
 }
 /*--------------------
@@ -208,9 +210,9 @@ td {
   空白設定
 --------------------*/
 .brank-top {
-  padding-top: 4em;
+  padding-top: 7em;
   padding-left: 7em;
-  padding-bottom: 39em;
+  padding-bottom: 20em;
 }
 .brank {
   padding-top: 20em;
