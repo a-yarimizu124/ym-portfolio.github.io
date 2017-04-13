@@ -46,7 +46,7 @@ body {
 }
 .main-nav li {
   display: inline-block;
-  font-size: 90%;
+  font-size: 80%;
   margin-left: 1em;
 }
 .main-nav li a {
@@ -160,9 +160,9 @@ table {
   空白設定
 --------------------*/
 .brank-top {
-  padding-top: 7em;
+  padding-top: 4em;
   padding-left: 7em;
-  padding-bottom: 34em;
+  padding-bottom: 28em;
 }
 .brank {
   padding-top: 20em;
