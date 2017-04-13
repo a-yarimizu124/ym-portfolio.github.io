@@ -146,6 +146,12 @@ td {
   -o-transform: translateY(-50%);
   transform: translateY(-50%);
 }
+section {
+  box-shadow: 5px 5px 10px;
+  border: 1px solid #000;
+  width: 100%;
+  height: 1em;
+}
 
 .pic1 {
   background-image: url('/images/bg/top_back1.jpg');
