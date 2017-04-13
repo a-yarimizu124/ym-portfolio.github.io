@@ -16,7 +16,7 @@
 	border-radius: 5px;
 }
 .title_size {
-	height: 10em;
+	height: 12em;
 }
 @media only screen and (max-width:480px) {
 	.title_size {
