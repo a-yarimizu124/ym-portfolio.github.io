@@ -111,6 +111,10 @@ td {
   text-align: left;
   padding-left: 2em;
 }
+.myname {
+  font-size: 120%;
+  font-weight: 700;
+}
 /*--------------------
   Parallax
 --------------------*/
