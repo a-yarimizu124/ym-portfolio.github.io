@@ -16,7 +16,7 @@
 	border-radius: 5px;
 }
 .title_size {
-	height: 12em;
+	height: 11em;
 }
 @media only screen and (max-width:480px) {
 	.title_size {
@@ -36,7 +36,7 @@
 figure {
 	position: relative;
 	overflow: hidden;
-	width: 300px;
+	width: 200px;
 
 	/* 画像に角丸マスクをかける */
 	border-radius: 6px;
