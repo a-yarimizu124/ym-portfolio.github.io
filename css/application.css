@@ -5,7 +5,6 @@
   font-family: 'font_ui';
   src: url(/font/03スマートフォントUI.otf);
 }
-
 body {
   font-size: 100%;
   /*font-family: "Roboto", sans-serif;*/
@@ -42,7 +41,7 @@ body {
 }
 .main-nav ul {
   position: static;
-  line-height: 1em;
+  line-height: 70px;
   padding-right: 2em;
 }
 .main-nav li {
@@ -80,17 +79,10 @@ body {
   /*background: #f4f4f4;*/
   /*text-align: center;*/
 }
-.main-profile {
-  height: 600;
+.main-space {
+  /*height: 600;*/
   /*background: #6decb9;*/
-  background: #e2e2e2;
-  text-align: center;
-  color: #4b4b4b;
-  overflow: auto;
-}
-.main-portfolio {
-  /*background: #11999e;*/
-  background: #e2e2e2;
+  background: #4c8654;
   text-align: center;
   color: #4b4b4b;
   overflow: auto;
@@ -104,7 +96,7 @@ body {
   Title
 --------------------*/
 .span_title {
-  color: #3c3c3c;
+  color: #ffffff;
   background-color: #464646;
   letter-spacing: 5px;
   line-height: 50px;
