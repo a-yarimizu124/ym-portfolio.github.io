@@ -1,10 +1,16 @@
 /*--------------------
   全体の設定
 --------------------*/
+@font-face {
+  font-family: 'font_ui';
+  src: url(/font/03スマートフォントUI.otf);
+}
+
 body {
   font-size: 100%;
-  font-family: "Roboto", sans-serif;
-  color: #3d3536;
+  /*font-family: "Roboto", sans-serif;*/
+  font-family: font-ui;
+  color: #3c3c3c;
   margin: 0;
 }
 
@@ -36,7 +42,7 @@ body {
 }
 .main-nav ul {
   position: static;
-  line-height: 70px;
+  line-height: 1em;
   padding-right: 2em;
 }
 .main-nav li {
@@ -98,7 +104,7 @@ body {
   Title
 --------------------*/
 .span_title {
-  color: #ffffff;
+  color: #3c3c3c;
   background-color: #464646;
   letter-spacing: 5px;
   line-height: 50px;
