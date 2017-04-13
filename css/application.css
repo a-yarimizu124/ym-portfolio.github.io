@@ -59,7 +59,7 @@ body {
   color: #ffffff;
 }
 .main-nav li a:hover {
-  color: #858585;
+  color: #3c3c3c;
 }
 
 /*--------------------
@@ -80,9 +80,7 @@ body {
   /*text-align: center;*/
 }
 .main-space {
-  /*height: 600;*/
-  /*background: #6decb9;*/
-  background: #4c8654;
+  background: #ffffff;
   text-align: center;
   color: #4b4b4b;
   overflow: auto;
