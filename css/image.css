@@ -18,9 +18,9 @@
 .title_size {
 	height: 15em;
 }
-@media screen and (max-width: 480px) {
+@media only screen and (max-width:480px) {
 	.title_size {
-		height: 3em;
+		height: 8em;
 	}
 }
 /*-----------------------------

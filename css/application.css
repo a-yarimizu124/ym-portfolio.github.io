@@ -118,6 +118,12 @@ td {
   font-size: 150%;
   font-weight: 700;
 }
+@media only screen and (max-width:480px) {
+  td {
+    width: 100%;
+    display: block;
+  }
+}
 /*--------------------
   Parallax
 --------------------*/
@@ -204,8 +210,18 @@ td {
 .brank-top {
   padding-top: 4em;
   padding-left: 7em;
-  padding-bottom: 28em;
+  padding-bottom: 39em;
 }
 .brank {
   padding-top: 20em;
+}
+@media only screen and (max-width:480px) {
+  .brank-top {
+    padding-top: 5em;
+    padding-left: 4em;
+    padding-bottom: 28em;
+  }
+  .brank {
+    padding-top: 15em;
+  }
 }
