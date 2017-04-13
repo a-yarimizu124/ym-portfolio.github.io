@@ -5,6 +5,10 @@
   font-family: 'font_ui';
   src: url(/font/03スマートフォントUI.otf);
 }
+@font-face {
+  font-family: 'shirokuma';
+  src: url(/font/shirokuma.ttf);
+}
 body {
   font-size: 100%;
   /*font-family: "Roboto", sans-serif;*/
@@ -95,8 +99,8 @@ body {
   Title
 --------------------*/
 .span_title {
+  font-family: shirokuma;
   color: #663f42;
-  /*background-color: #464646;*/
   letter-spacing: 5px;
   line-height: 50px;
   font-size: 50px;
